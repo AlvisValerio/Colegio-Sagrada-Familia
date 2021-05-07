@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
+
+  <title> Colegio Sagrada Familia </title>
+</head>
+
+<body>
+
+  <header class="header" id="inicio">
+
+    <img src="img/burger.svg" class="burger" alt="Menu">
+
+    <nav class="menu-navegacion">
+      <a href="#inicio"> Inicio </a>
+      <a href="#servicio"> Propuesta </a>
+      <a href="#portafolio"> Colegio </a>
+      <a href="#contacto"> Historia </a>
+      <a href="#about"> Contacto </a>
+      <a href="#"> Blog </a>
+    </nav>
+
+    <div class="slide-contenedor">
+
+      <div class="miSlider fade">
+        <img src="img/1.jpg" alt="">
+      </div>
+
+      <div class="miSlider fade">
+        <img src="img/2.jpg" alt="">
+      </div>
+
+      <div class="miSlider fade">
+        <img src="img/3.jpg" alt="">
+      </div>
+
+      <div class="miSlider fade">
+        <img src="img/4.jpg" alt="">
+      </div>
+
+      <div class="miSlider fade">
+        <img src="img/5.jpg" alt="">
+      </div>
+
+      <div class="direcciones">
+        <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+        <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+      </div>
+
+      <div class="barras">
+        <span class="barra active" onclick="posicionSlide(1)"></span>
+        <span class="barra" onclick="posicionSlide(2)"></span>
+        <span class="barra" onclick="posicionSlide(3)"></span>
+        <span class="barra" onclick="posicionSlide(4)"></span>
+        <span class="barra" onclick="posicionSlide(5)"></span>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <div class="bienvenida">
+
+      <h1 class="titulo"> Colegio Sagrada Familia </h1>
+
+      <p class="slogan">
+        Formando ciudadanos en valores
+      </p>
+
+    </div>
+
+    <section class="valores">
+      <!-- Cards -->
+
+      <div class="contenedor-principal">
+
+        <div class="grid">
+
+          <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="./img/compromiso.jpg" alt="Rome" />
+              <div class="card-content">
+                <h3 class="card-header"> Compromiso </h3>
+
+                <button class="card-btn"> Conocer mas </button>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="./img/respeto.jpg" alt="Grand Canyon" />
+              <div class="card-content">
+                <h3 class="card-header"> Respeto </h3>
+
+                <button class="card-btn"> Conocer mas </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="card">
+              <img class="card-img" src="./img/convivencia.jpg" alt="Maldives" />
+              <div class="card-content">
+                <h3 class="card-header"> Convivencia </h3>
+
+                <button class="card-btn"> Conocer mas </button>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="propuesta">
+
+      <div class="cabeza-propuesta">
+
+        <h3 class="titulo-propuesta"> Apuesta por el futuro de tus hijos </h3>
+
+        <p class="slogan-propuesta">
+
+          La excelencia educativa es nuestra mejor garantía para el desarrollo
+          de las diferentes competencias de tu hijo/a.
+
+        </p>
+
+      </div>
+
+      <div class="img-propuesta">
+
+        <img src="img/graduacion.jpg " alt="">
+
+      </div>
+
+      <p class="texto-propuesta">
+        Nuestra pedagogía de alto rendimiento se basa en la singularidad, en la educación personalizada, consiguiendo
+        así un “mínimo” para todos y un “máximo” para cada uno.
+
+        Desde el humanismo cristiano y la educación emocional, conseguimos dar valor, equilibrio y fortaleza a todos y
+        cada uno de nuestros alumnos para que afronten con garantías su ilusionante y prometedor futuro. Los principios
+        y valores de tu hijo/a serán su seña de identidad, lo que le defina como persona.
+
+        La capacidad de organización y gestión del aprendizaje, inherente a nuestro Proyecto Educativo, permitirá a tu
+        hijo/a ganar su futuro.
+      </p>
+    </section>
+
+    <section class="diferentes">
+
+      <div class="presentacion-diferente">
+
+        <h3 class="titulo-diferente"> QUÉ NOS HACE DIFERENTES EN POCAS PALABRAS </h3>
+
+        <p class="slogan-diferente"> Somos un colegio cercano y familiar </p>
+
+      </div>
+
+      <div class="contenedor-diferente">
+
+        <div class="card-iconos">
+
+          <img src="img/favicon.ico" alt="">
+
+          <p> Formacion Complementaria </p>
+
+        </div>
+
+        <div class="card-iconos">
+
+          <img src="img/robotica.svg" alt="">
+
+          <p> Referente nacional en Robótica Educativa </p>
+
+        </div>
+
+        <div class="card-iconos">
+
+          <img src="img/idiomas.svg" alt="">
+
+          <p> Plan de Idiomas </p>
+
+        </div>
+
+        <div class="card-iconos">
+
+          <img src="img/ciencia.svg" alt="">
+
+          <p> Ciencias y tecnologia </p>
+
+        </div>
+
+        <div class="card-iconos">
+
+          <img src="img/educacion.svg" alt="">
+
+          <p> Educación Emocional e Interioridad </p>
+
+        </div>
+
+        <div class="card-iconos">
+
+          <img src="img/emocional.svg" alt="">
+
+          <p> Innovación educativa y formación </p>
+
+        </div>
+
+        <div class="card-iconos">
+
+          <img src="img/artes.svg" alt="">
+
+          <p> Programa de Talento y Altas Capacidades </p>
+
+        </div>
+
+        <div class="card-iconos">
+
+          <img src="img/salud.svg" alt="">
+
+          <p> Promoción de la Salud y la Vida Activa </p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="blog">
+
+      <h3 class="Titulo blog"> Blog </h3>
+
+      <div class="contenedor-blogs">
+
+        <div class="cajas-blog">
+
+          <img src="img/Escolarizacion.jpg" alt="img">
+
+          <p> Escolarizacion </p>
+
+        </div>
+
+        <div class="cajas-blog">
+
+          <img src="img/Plan-Escolar.jpg" alt="img">
+
+          <p> Plan Escolar </p>
+
+        </div>
+
+        <div class="cajas-blog">
+
+          <img src="img/eleccion.jpg" alt="img">
+
+          <p> Eleccion academica </p>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="contenedor-footer">
+
+      <div class="caja-footer">
+
+        <div class="logo">
+
+          <div class="logo-footer">
+
+            <img src="img/logo-page.png" alt="logo" width="150">
+
+          </div>
+
+            <h3> Colegio Sagrada Familia </h3>
+
+          <div class="contenedor-rrs">
+
+            <div class="iconos-redes">
+
+              <img src="img/facebook.svg" alt="">
+
+            </div>
+
+            <div class="iconos-redes">
+
+              <img src="img/twitter.svg" alt="">
+
+            </div>
+
+            <div class="iconos-redes">
+
+              <img src="img/instagram.svg" alt="">
+
+            </div>
+
+            <div class="iconos-redes">
+
+              <img src="img/youtube.svg" alt="">
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="caja-footer">
+
+        <div class="div-informacion">
+
+          <a href="#" target="_blank" rel="noopener noreferrer"> Blog </a>
+          <a href="#" target="_blank" rel="noopener noreferrer"> Proyecto Educativo </a>
+          <a href="#" target="_blank" rel="noopener noreferrer"> Uniformes </a>
+          <a href="#" target="_blank" rel="noopener noreferrer"> Educación </a>
+          <a href="#" target="_blank" rel="noopener noreferrer"> Horarios </a>
+
+        </div>
+
+      </div>
+
+      <div class="caja-footer">
+
+        <div class="contactos">
+
+          <h3> Contactos </h3>
+
+          <div class="contenedor-direccions">
+
+            <address>
+
+              <a href="https://goo.gl/maps/ub7W9EXjha2uiJto9"> Direccion: 
+                Caracas, avenida principal las Mercedez </a> <br><br>
+
+              <a href="mailto:pedrito_navaja@gmail.com"> Correo: ColegioSagradaFamilia@fs.com </a> <br><br>
+
+              <a href="tel:+5904140905324"> Telefono: 0414-495-503-5 </a>
+
+            </address>
+
+          </div>
+
+        </div>
+        
+      </div>
+
+      <div class="footer-final"> Colegio Sagrada Familia 2021 - Todos los derechos reservados </div>
+
+  </footer>
+
+  <script src="js/menu.js"> </script>
+  <script src="js/main.js"> </script>
+</body>
+
+</html>
